@@ -21,12 +21,12 @@ const PHONETIC = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven',
  *
  * Convert input single digit to corresponding alphabet as output
  *
- * @param {Number} digit single digit to be converted to alphabet.
+ * @param {String} digit single digit to be converted to alphabet.
  *
  * @returns {String} converted alphabet
  */
 let numberToAlpha = function (digit) {
-    return PHONETIC[digit];
+    return PHONETIC[parseInt(digit)];
 }
 
 /**

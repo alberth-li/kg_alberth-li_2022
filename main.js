@@ -7,7 +7,7 @@
  *
  * @since 05.03.2021
  *
- * @version 1.0(FINAL)
+ * @version 1.0(FINAL VERSION)
  */
 
 //get input
